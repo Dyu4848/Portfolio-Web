@@ -34,10 +34,7 @@ body {
 .header div ul li {
     display: inline-block;
     margin-left: 15px;
-}
-
-section {
-    padding-top: 20px;
+    text-align: left;
 }
 
 .border {
@@ -46,59 +43,52 @@ section {
 }
 
 .card{
-    display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
-    margin: 20px 50px;  
-    width: 90%;
+    margin: 15px 45px;  
     align-items: center;
     width: 75%;
     padding-bottom: 50px;
-  }
-  
-.flex-row {
     display: flex;
-    justify-content: left;
+    flex-wrap: wrap;
   }
   
+
 .title {
     color: red;
-    font-family:fantasy;
+    font-family:'Apple Chancery', 'cursive';
     font-size: 30px;
     justify-content: center;
     display: flex;
     margin-top: 30px;
   }
   
-.step-info{
-    flex :2 20%;
-    display: flex;
+.start{
     flex-wrap: wrap;
     align-items: center;
+    flex :3 22%;
   }
   
 .main-text {
-    flex: 25;
+    flex: 20;
   }
 
   .li-text {
     display:inline;
     margin-right: 100px;
+    text-align: left;
   }
   
-.step-text p {
-    color: var(--primary-color);
+.main-text p {
+    width: 50%;
     font-size: 15px;
-    text-align: left;
-    line-height: 1.3;
     margin-left: 30px;
-    width: 100%;
-  }
-
+    padding-top: 30px;
+    text-align: left;
+}
   .Horiseon {
     position: relative;
     height: 200px;
-    width: 75%;
+    width: 22%;
     transition: opacity .5s;
   }
 
