@@ -108,3 +108,10 @@ body {
   #coding-img {
     width: 100%;
   }
+
+  .project1 {
+    height: 200px;
+    width: 25%;
+    transition: opacity .5s;
+    display: inline-block;
+  }
